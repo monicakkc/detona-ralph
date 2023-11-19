@@ -1,0 +1,64 @@
+
+
+body{
+    background-color: #ffe4c4;
+}
+
+h2 {
+    margin: 1.5rem 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/wall.png");
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7rem;
+    background-color: #ffe4c4;
+    border-bottom: .5rem solid #deb887;
+}
+
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem;
+
+}
+
+.square {
+    height: 10rem;
+    width: 10rem;
+    border: .03rem solid #000000;
+    background-color: #deb887;
+}
+
+.enemy {
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+    background-color: #ff0000;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 11px;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: solid #f4a261 3px;
+    border-radius: 1px;
+    }
+    
+.btn:hover{
+    color: #deb887;
+    border: solid 2px #deb887;
+    }
